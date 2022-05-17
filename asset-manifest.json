@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ajivoin.github.io/bazingle/static/css/main.34778c1d.css",
+    "main.js": "/ajivoin.github.io/bazingle/static/js/main.07f49a3a.js",
+    "static/js/787.38f12b57.chunk.js": "/ajivoin.github.io/bazingle/static/js/787.38f12b57.chunk.js",
+    "index.html": "/ajivoin.github.io/bazingle/index.html",
+    "main.34778c1d.css.map": "/ajivoin.github.io/bazingle/static/css/main.34778c1d.css.map",
+    "main.07f49a3a.js.map": "/ajivoin.github.io/bazingle/static/js/main.07f49a3a.js.map",
+    "787.38f12b57.chunk.js.map": "/ajivoin.github.io/bazingle/static/js/787.38f12b57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34778c1d.css",
+    "static/js/main.07f49a3a.js"
+  ]
+}
