@@ -14,7 +14,7 @@
     "deploy": "echo 'bazingle.wook.wtf' > ./build/CNAME && gh-pages -d build"
   },
   "dependencies": {
-    "@headlessui/react": "^1.4.2",
+    "@headlessui/react": "^1.6.1",
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
