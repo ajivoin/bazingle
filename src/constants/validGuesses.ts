@@ -1,4 +1,4 @@
-export const valid_guesses = [
+export const VALID_GUESSES = [
   'bazinga',
   'abalone',
   'abandon',
