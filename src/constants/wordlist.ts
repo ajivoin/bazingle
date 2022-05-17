@@ -1,3 +1,1 @@
-export const WORDS = [
-  'bazinga',
-];
+export const WORDS = ['bazinga']

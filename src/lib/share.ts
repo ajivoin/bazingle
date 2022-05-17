@@ -26,7 +26,8 @@ export const shareStatus = (
       solution,
       guesses,
       getEmojiTiles(isDarkMode, isHighContrastMode)
-    ) + '\nhttps://bazingle.wook.wtf'
+    ) +
+    '\nhttps://bazingle.wook.wtf'
 
   const shareData = { text: textToShare }
 
