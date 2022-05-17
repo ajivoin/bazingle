@@ -11,7 +11,7 @@
     "test": "react-scripts test",
     "prepare": "husky install",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "echo 'bazingle.wook.wtf' > ./build/CNAME && gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
@@ -63,6 +63,5 @@
   },
   "lint-staged": {
     "src/*.{ts,tsx,js,jsx,css,md}": "prettier --write"
-  },
-  "homepage": "ajivoin.github.io/bazingle"
+  }
 }
