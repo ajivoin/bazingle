@@ -9,7 +9,9 @@
     "lint": "prettier --check src",
     "start": "react-scripts start",
     "test": "react-scripts test",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
@@ -62,7 +64,5 @@
   "lint-staged": {
     "src/*.{ts,tsx,js,jsx,css,md}": "prettier --write"
   },
-  "homepage": "ajivoin.github.io/bazingle",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "homepage": "ajivoin.github.io/bazingle"
 }
