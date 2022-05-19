@@ -62,17 +62,6 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter N is not in the word in any spot.
       </p>
-
-      <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-        This is an open source version of the word guessing game we all know and
-        love -{' '}
-        <a
-          href="https://github.com/ajivoin/bazingle"
-          className="underline font-bold"
-        >
-          check out the code here
-        </a>{' '}
-      </p>
     </BaseModal>
   )
 }
