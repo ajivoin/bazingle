@@ -68,7 +68,7 @@ function App() {
   const [isRevealing, setIsRevealing] = useState(false)
   const [guesses, setGuesses] = useState<string[]>(() => {
     const loaded = loadGameStateFromLocalStorage()
-    if (loaded?.solution !== solution) {
+    if (loaded?.date !== new Date().getDate()) {
       return []
     }
     const gameWasWon = loaded.guesses.includes(solution)
@@ -149,7 +149,11 @@ function App() {
   }
 
   useEffect(() => {
-    saveGameStateToLocalStorage({ guesses, solution })
+    saveGameStateToLocalStorage({
+      guesses,
+      solution,
+      date: new Date().getDate(),
+    })
   }, [guesses])
 
   useEffect(() => {
